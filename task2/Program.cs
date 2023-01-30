@@ -6,8 +6,8 @@ A (7,-5, 0); B (1,-1,9) -> 11.53
 double GetLength(double[] pointA, double[] pointB)
 {
   double result = Math.Sqrt((pointA[0] - pointB[0]) * (pointA[0] - pointB[0]) 
-                  + (pointA[1] - pointB[1]) * (pointA[1] - pointB[1]) 
-                  + (pointA[2] - pointB[2]) * (pointA[2] - pointB[2]));
+ + (pointA[1] - pointB[1]) * (pointA[1] - pointB[1]) 
+ + (pointA[2] - pointB[2]) * (pointA[2] - pointB[2]));
   return result;
 }
 
